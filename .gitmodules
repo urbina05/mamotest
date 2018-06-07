@@ -1,0 +1,28 @@
+[submodule "ingadhoc-account-financial-tools"]
+    path = ingadhoc-account-financial-tools
+    url = git@github.com:ingadhoc/account-financial-tools.git
+    branch = 10.0
+[submodule "ingadhoc-account-payment"]
+    path = ingadhoc-account-payment
+    url = git@github.com:ingadhoc/account-payment.git
+    branch = 10.0
+[submodule "ingadhoc-miscellaneous"]
+    path = ingadhoc-miscellaneous
+    url = git@github.com:ingadhoc/miscellaneous.git
+    branch = 10.0
+[submodule "oca-account-invoicing"]
+    path = oca-account-invoicing
+    url = git@github.com:OCA/account-invoicing.git
+    branch = 10.0
+[submodule "oca-partner-contact"]
+    path = oca-partner-contact
+    url = git@github.com:OCA/partner-contact.git
+    branch = 10.0
+[submodule "oca-server-tools"]
+    path = oca-server-tools
+    url = git@github.com:OCA/server-tools.git
+    branch = 10.0
+[submodule "fbotti-odoo"]
+    path = fbotti-odoo
+    url = git@github.com:fbotti/odoo.git
+    branch = master

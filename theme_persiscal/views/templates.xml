@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <template id="less_helpers" name="theme_persiscal less helpers" inherit_id="web_enterprise.less_helpers" priority='15'>
+            <xpath expr="//link[@href='/web_enterprise/static/src/less/variables.less']" position="after">
+                <link rel="stylesheet" type="text/less" href="/theme_persiscal/static/src/less/variables.less"/>
+            </xpath>
+        </template>
+        <!-- <template id="assets_common" name="theme_persiscal assets common" inherit_id="web_enterprise.assets_common">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/less" href="/theme_persiscal/static/src/less/navbar.less"/>
+            </xpath>
+        </template> -->
+
+        <template id="web_layout" inherit_id="web.layout">
+            <xpath expr="//head//link[1]" position="replace">
+                <link type="image/x-icon" rel="shortcut icon" href="/theme_persiscal/static/src/img/favicon.jpg"/>
+                <link rel="icon" href="/theme_persiscal/static/src/img/favicon-persiscal-32x32.png" sizes="32x32" />
+                <link rel="icon" href="/theme_persiscal/static/src/img/favicon-persiscal-192x192.png" sizes="192x192" />
+                <link rel="apple-touch-icon-precomposed" href="/theme_persiscal/static/src/img/favicon-persiscal-180x180.png" />
+                <meta name="msapplication-TileImage" content="/theme_persiscal/static/src/img/favicon-persiscal-270x270.png" />
+            </xpath>
+        </template>
+        <template id="assets_backend" name="theme_persiscal assets backend" inherit_id="web_enterprise.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/less" href="/theme_persiscal/static/src/less/app_switcher.less"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

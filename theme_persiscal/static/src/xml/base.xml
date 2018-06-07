@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="persiscal_template" xml:space="preserve">
+<t t-extend="AppSwitcher.Content">
+    <t t-jquery="div.o_application_switcher_footer" t-operation="inner">
+        <img src="/theme_persiscal/static/src/img/logo-persiscal-pymes.svg"/>
+    </t>
+</t>
+</templates>

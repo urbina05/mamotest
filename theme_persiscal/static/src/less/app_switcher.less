@@ -1,0 +1,28 @@
+.o_application_switcher {
+     // Fallback for browsers that doesn't support css gradients
+    background-image: url(/theme_persiscal/static/src/img/application-switcher-1.jpg);
+    // Prefer css gradient over images
+    .o-skew-gradient(rgba(102, 194, 255, 1), rgba(102, 194, 255, 1));
+
+    .o_application_switcher_scrollable {
+        .o_apps {
+            .o_app {
+                .o_app_icon {
+                    -webkit-filter: grayscale(50%);
+                    filter: grayscale(50%);
+                }
+                // &:hover, &:focus, &.o_focused {
+                //     .o_app_icon {
+                //         -webkit-filter: grayscale(0%);
+                //         filter: grayscale(0%);
+                //     }
+                // }
+            }
+        }
+        .o_application_switcher_footer {
+            > img {
+                width: 150px;
+            }
+        }
+    }
+}
